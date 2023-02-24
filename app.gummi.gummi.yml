@@ -124,5 +124,6 @@ modules:
           type: git
           tag-pattern: ([\d.]+)$
           is-important: true
+          timestamp-query: .published_at
       - type: file
         path: app.gummi.gummi.appdata.xml
