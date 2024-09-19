@@ -14,7 +14,7 @@ add-extensions:
     directory: texlive
     subdirectories: true
     autodelete: true
-    version: '23.08'
+    version: '24.08'
 
 cleanup:
   - /include
