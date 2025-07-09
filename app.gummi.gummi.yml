@@ -57,6 +57,8 @@ modules:
         commands:
           - cp -p /usr/share/automake-*/config.{sub,guess} .;
           - autoreconf -vfi;
+      - type: patch
+        path: gtksourceview-gcc14.patch
     post-install:
       - install -p -D -m 0644 "COPYING" -t "${FLATPAK_DEST}/share/licenses/gtksourceview/";
 
