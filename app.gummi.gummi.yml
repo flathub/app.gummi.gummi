@@ -1,6 +1,6 @@
 id: app.gummi.gummi
 runtime: org.gnome.Platform
-runtime-version: '48'
+runtime-version: '49'
 sdk: org.gnome.Sdk
 rename-icon: gummi
 rename-desktop-file: gummi.desktop
@@ -128,3 +128,5 @@ modules:
           is-important: true
       - type: file
         path: app.gummi.gummi.appdata.xml
+      - type: patch
+        path: gummi-gcc15.patch
