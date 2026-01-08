@@ -24,7 +24,9 @@
   <url type="bugtracker">https://github.com/alexandervdm/gummi/issues/</url>
   <url type="help">https://github.com/alexandervdm/gummi/wiki/</url>
   <url type="vcs-browser">https://github.com/alexandervdm/gummi</url>
-  <developer_name>alexandervdm</developer_name>
+  <developer id="io.github.alexandervdm">
+    <name>alexandervdm</name>
+  </developer>
   <releases>
     <release version="0.8.3" date="2022-04-29"/>
   </releases>
