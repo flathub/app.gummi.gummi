@@ -136,3 +136,4 @@ modules:
         path: app.gummi.gummi.appdata.xml
       - type: patch
         path: gummi-gcc15.patch
+ 
