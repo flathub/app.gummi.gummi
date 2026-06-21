@@ -65,7 +65,7 @@ modules:
   - name: boost
     buildsystem: simple
     build-commands:
-      - ./bootstrap.sh --prefix=/app --with-libraries=graph,program_options,system,thread
+      - ./bootstrap.sh --prefix=/app --with-libraries=graph,program_options,thread
       - ./b2 -j $FLATPAK_BUILDER_N_JOBS install
     sources:
       - type: archive
